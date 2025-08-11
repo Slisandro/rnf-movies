@@ -1,12 +1,14 @@
-import { Text, View } from 'react-native';
+import React from 'react'
+import { Text, View } from 'react-native'
 
-
-export default function HomeScreen() {
+const Search = () => {
   return (
     <View className="flex-1 items-center justify-center bg-white">
       <Text className="text-xl font-bold text-blue-500">
-        Home
+        Search
       </Text>
     </View>
-  );
+  )
 }
+
+export default Search
